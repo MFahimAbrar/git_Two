@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Items</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .hero-item {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .hero-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .hero-item h3 {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero-item">
+            <img src="hero1.jpg" alt="Hero 1">
+            <h3>Hero One</h3>
+            <p>Power: Fire Blast</p>
+        </div>
+        <div class="hero-item">
+            <img src="hero2.jpg" alt="Hero 2">
+            <h3>Hero Two</h3>
+            <p>Power: Super Strength</p>
+        </div>
+        <div class="hero-item">
+            <img src="hero3.jpg" alt="Hero 3">
+            <h3>Hero Three</h3>
+            <p>Power: Invisibility</p>
+        </div>
+    </div>
+</body>
+</html>
